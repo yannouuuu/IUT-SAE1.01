@@ -1,14 +1,8 @@
-# IUT-SAE1.01
-
-## Module d'initiation au développement simple en BUT1 d'Informatique
-
-Ce dépôt contient les ressources et le travail réalisé dans le cadre du module IUT-SAE1.01, une initiation au développement simple en BUT1 d'Informatique.
-
 <br/>
 <p align="center">
     <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github.com/yannouuuu/IUT-SAE1.01/raw/main/.github/assets/header_univlille_dark.png">
-        <img alt="UnivLilleLogo" src="https://github.com/yannouuuu/IUT-SAE1.01/raw/main/.github/assets/header_univlille_light.png">
+        <source media="(prefers-color-scheme: dark)" srcset="https://github.com/yannouuuu/IUT-SAE1.01/raw/main/.github/assets/header_univlille_light.png" width="200px">
+        <img alt="UnivLilleLogo" src="https://github.com/yannouuuu/IUT-SAE1.01/raw/main/.github/assets/header_univlille_dark.png" width="200px">
     </picture>
   <h1 align="center">IUT-SAE1.01</h1>
 </p>
