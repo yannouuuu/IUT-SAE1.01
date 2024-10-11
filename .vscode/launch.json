@@ -6,7 +6,7 @@
             "name": "Launch Application",
             "request": "launch",
             "mainClass": "Program",
-            "classpath": [
+            "classPaths": [
                 "${workspaceFolder}/resources/ijava/ijava.jar",
                 "${workspaceFolder}/bin"
             ]
