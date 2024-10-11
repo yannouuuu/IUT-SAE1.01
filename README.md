@@ -4,6 +4,24 @@
 
 Ce dépôt contient les ressources et le travail réalisé dans le cadre du module IUT-SAE1.01, une initiation au développement simple en BUT1 d'Informatique.
 
+<br/>
+<p align="center">
+    <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github.com/yannouuuu/IUT-SAE1.01/raw/main/.github/assets/header_univlille_dark.png">
+        <img alt="UnivLilleLogo" src="https://github.com/yannouuuu/IUT-SAE1.01/raw/main/.github/assets/header_univlille_light.png">
+    </picture>
+  <h1 align="center">IUT-SAE1.01</h1>
+</p>
+
+<p align="center">
+    Module d'initiation au développement simple en BUT1 d'Informatique
+    <br/>
+    <br/>
+    <a href="https://docs.getpapillon.xyz/"><strong>Voir la page sur le moodle »</strong></a><br><br>
+    <a href="https://docs.getpapillon.xyz/"><strong>Voir la SAE complète sur Notion (sur invitation) »</strong></a><br><br>
+  </p>
+</p>
+
 ## Sommaire
 
 - [Semaine 1 : Mise en route](./Semaine1/)
@@ -22,3 +40,10 @@ Chaque semaine, nous sommes interrogés sur les concepts et les compétences acq
 
 Nous tenons à créditer **SECQ Yann et ABIDI Sofiene, ALMEIDA COCO Amadeu, BONEVA Iovka, CASTILLON
 Antoine, DELECROIX Fabien, LEPRETRE Éric, SANTANA MAIA Deise** pour la création des diaporamas de cours, des TP, TD et pour la réalisation des SAE chaque semaine. Leur travail a été précieux pour notre apprentissage.
+
+<br/>
+<p align="center">
+    <picture>
+        <img alt="UnivLilleLogo" src="https://github.com/yannouuuu/IUT-SAE1.01/raw/main/.github/assets/footer_univlille.png">
+    </picture>
+</p>
