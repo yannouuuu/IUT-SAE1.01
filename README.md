@@ -26,6 +26,27 @@
 
 Notre initiation se déroule sur un Java modifié et propriétaire à l'IUT de Lille. Vous pouvez trouver les fichiers et ressources nécessaires dans le dossier `ressources/ijava` du dépôt (un program.jar s'y trouve).
 
+### Conseils/Commandes pratiques
+
+
+Pour configurer un environnement de développement similaire à celui utilisé en TP, suivez ces étapes :
+
+1. **Installer le JDK** :
+   - Vérifiez si le JDK est déjà installé en exécutant `javac -version`. Si la commande renvoie une version (ex. `javac 11.0.12`), vous êtes prêt. Sinon, téléchargez le JDK pour votre système d'exploitation [ici](https://www.oracle.com/java/technologies/downloads/).
+
+2. **Utiliser `program.jar`** :
+   - Le fichier `program.jar` de Ijava est déjà disponible dans le dossier [`ressources/ijava`](.resources/ijava/).
+
+3. **Compiler et exécuter les programmes** :
+   - **Compilation** :
+     - Linux/MacOS : `javac -cp ../resources/ijava/program.jar:. Hello.java`
+     - Windows : `javac -cp "..\resources\ijava\program.jar;." Hello.java`
+   - **Exécution** :
+     - Linux/MacOS : `java -cp ../resources/ijava/program.jar:. Hello`
+     - Windows : `java -cp "..\resources\ijava\program.jar;." Hello`
+
+   > **ATTENTION :** Ces commandes supposent que le fichier `Hello.java` est dans le répertoire courant et que `program.jar` se trouve dans `resources/ijava`.
+
 ### Interrogations hebdomadaires
 
 Chaque semaine, nous sommes interrogés sur les concepts et les compétences acquises. Cela permet de garantir que nous maîtrisons les fondamentaux du développement en Java.
