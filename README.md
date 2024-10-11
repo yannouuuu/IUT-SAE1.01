@@ -11,8 +11,8 @@
     Module d'initiation au développement simple en BUT1 d'Informatique
     <br/>
     <br/>
-    <a href="https://docs.getpapillon.xyz/"><strong>Voir la page sur le moodle »</strong></a><br><br>
-    <a href="https://docs.getpapillon.xyz/"><strong>Voir la SAE complète sur Notion (sur invitation) »</strong></a><br><br>
+    <a href="https://moodle.univ-lille.fr/course/view.php?id=28289&sectionid=245638"><strong>Voir la page sur le moodle »</strong></a><br><br>
+    <a href="https://www.notion.so/univlille/BUT1-Informatique-IUT-de-Lille-705aa08c54ab423ab79f02b3e22336b7?pvs=4"><strong>Voir la SAE complète sur Notion (sur invitation) »</strong></a><br><br>
   </p>
 </p>
 
