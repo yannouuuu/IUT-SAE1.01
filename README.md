@@ -4,6 +4,12 @@
 
 Ce dépôt contient les ressources et le travail réalisé dans le cadre du module IUT-SAE1.01, une initiation au développement simple en BUT1 d'Informatique.
 
+## Sommaire
+
+- [Semaine 1 : Mise en route](./Semaine1/)
+- [Semaine 2 : Échauffement](./Semaine2/)
+- [Semaine 3 : Entraînement renforcé](./Semaine3/)
+
 ### Environnement de développement
 
 Notre initiation se déroule sur un Java modifié et propriétaire à l'IUT de Lille. Vous pouvez trouver les fichiers et ressources nécessaires dans le dossier `ressources/ijava` du dépôt (un program.jar s'y trouve).
