@@ -88,7 +88,7 @@ void algorithm() {
 
     print("Nombre de points à répartir : ");
     int nbPts = readInt();
-    println(saisirPNJ(nbPts));
+    println(saisir(nbPts)); // Changed saisirPNJ to saisir
     println("-------------------------------");
 }
 }
