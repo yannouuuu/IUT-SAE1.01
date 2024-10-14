@@ -35,7 +35,7 @@ Pour configurer un environnement de développement similaire à celui utilisé e
    - Vérifiez si le JDK est déjà installé en exécutant `javac -version`. Si la commande renvoie une version (ex. `javac 11.0.12`), vous êtes prêt. Sinon, téléchargez le JDK pour votre système d'exploitation [ici](https://www.oracle.com/java/technologies/downloads/).
 
 2. **Utiliser `program.jar`** :
-   - Le fichier `program.jar` de Ijava est déjà disponible dans le dossier [`ressources/ijava`](./resources/ijava/ijava.jar).
+   - Le fichier `program.jar` de Ijava est déjà disponible dans le dossier [`resources/ijava`](./resources/ijava/ijava.jar).
 
 3. **Compiler et exécuter les programmes** :
    - **Compilation** :
