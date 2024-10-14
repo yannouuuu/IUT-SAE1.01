@@ -21,6 +21,7 @@
 - [Semaine 1 : Mise en route](./Semaine1/)
 - [Semaine 2 : Échauffement](./Semaine2/)
 - [Semaine 3 : Entraînement renforcé](./Semaine3/)
+- [Semaine 4 : Petits Challenges](./Semaine4/)
 
 ### Environnement de développement
 
