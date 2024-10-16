@@ -25,7 +25,7 @@
 
 ### Environnement de développement
 
-Notre initiation se déroule sur un Java modifié et propriétaire à l'IUT de Lille. Vous pouvez trouver les fichiers et ressources nécessaires dans le dossier `ressources/ijava` du dépôt (un program.jar s'y trouve).
+Notre initiation se déroule sur un Java modifié et propriétaire à l'IUT de Lille. Vous pouvez trouver les fichiers et ressources nécessaires dans le dossier `resources/ijava` du dépôt (un program.jar s'y trouve).
 
 ### Conseils/Commandes pratiques
 
