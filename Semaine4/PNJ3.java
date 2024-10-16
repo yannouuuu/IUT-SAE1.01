@@ -1,3 +1,4 @@
+// Crédit : Valentin Licour
 class PNJ extends Program {
 
     String genererBarre(int black, int white) {

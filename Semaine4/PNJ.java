@@ -1,5 +1,5 @@
+// Crédit : Valentin Licour
 class PNJ extends Program {
-
     String genererBarre(int black, int white) {
         String accu = "";
         for (int i = 0; i < black; i++) {

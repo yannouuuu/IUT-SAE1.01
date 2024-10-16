@@ -1,3 +1,4 @@
+// Crédit : Valentin Licour
 class PNJ1 extends Program{
     void _testGenererBarre() {
         assertEquals("◻◻◻◻◻◻◻◻◻◻", genererBarre(0, 10));

@@ -1,3 +1,4 @@
+// Crédit : Valentin Licour
 class PNJ2 extends Program {
     void _testVisualiserCaracteristique() {
         assertEquals("◼◼◼◻◻◻◻◻◻◻ Force", visualiserCaracteristique("Force", 3, 10));
