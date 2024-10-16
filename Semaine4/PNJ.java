@@ -61,5 +61,4 @@ class PNJ extends Program {
         algo("Z6PO,Force,1,Agilité,1,Langues,10");
         algo("Beetlejuice,Magie,6,Malice,10,Sarcasme,10");
     }
-    
 }

@@ -1,21 +1,5 @@
 // Crédit : Valentin Licour
 class PNJ extends Program {
-
-    String genererBarre(int black, int white) {
-        String accu = "";
-        for (int i = 0; i < black; i++) {
-            accu += "◼";
-        }
-        for (int i = black; i < white; i++) {
-            accu += "◻";
-        }
-        return accu;
-    }
-    
-    String visualiserCaracteristique(String nom, int valeur, int max){
-        return genererBarre(valeur, max) + " " + nom; 
-    }
-
     String getChamps(String lignePNJ, int indice){
         int cpt = 0, id = 0;
         while (cpt < indice){
