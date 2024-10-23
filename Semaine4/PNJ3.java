@@ -1,5 +1,5 @@
 // Crédit : Valentin Licour
-class PNJ extends Program {
+class PNJ3 extends Program {
     String getChamps(String lignePNJ, int indice){
         int cpt = 0, id = 0;
         while (cpt < indice){
