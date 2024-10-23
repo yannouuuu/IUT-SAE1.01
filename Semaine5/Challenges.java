@@ -1,14 +1,51 @@
-// Crédit : Paul Delavictoire
-class Challenges extends Program{    
-    // Fonctionnalité 1 
+class Challenges extends Program{
+    // Fonctionnalité 1
     String printPNJ(String str1, int val1, String str2, int val2, String str3, int val3){
-        return str1+" ("+val1+")\n"+str2+" ("+val2+")\n"+str3+" ("+val3+")\n";
+        String rep = str1;
+        int ml = Math.max(Math.max(length(str1), length(str2)), length(str3));
+        for (int i = 0; i < ml - length(str1); i ++){
+            rep += " ";
+        }
+        rep +=" ("+val1+")\n"+str2;
+        for (int i = 0; i < ml - length(str2); i ++){
+            rep += " ";
+        }
+        rep += " ("+val2+")\n"+str3;
+        for (int i = 0; i < ml - length(str3); i ++){
+            rep += " ";
+        }
+        rep +=" ("+val3+")\n";
+        return rep;
     }
-    // Fonctionnalité 2 
+    // Fonctionnalité 2
     String printPNJ(String[] titres, int[] valeurs){
-        return titres[0]+"\n"+titres[1]+" ("+valeurs[1]+")\n"+titres[2]+" ("+valeurs[2]+")\n"+titres[3]+" ("+valeurs[3]+")\n";
+        String rep = titres[0]+"\n"+titres[1];
+        int ml = Math.max(Math.max(length(titres[1]), length(titres[2])), length(titres[3]));
+        for (int i = 0; i < ml-length(titres[1]); i++){
+            rep += " ";
+        }
+        rep += " ("+valeurs[1]+")\n"+titres[2];
+        for (int i = 0; i < ml-length(titres[2]); i++){
+            rep += " ";
+        }
+        rep += " ("+valeurs[2]+")\n"+titres[3];
+        for (int i = 0; i < ml-length(titres[3]); i++){
+            rep += " ";
+        }
+        rep += " ("+valeurs[3]+")\n";
+        return rep;
     }
-    // Fonctionnalité 3 
+    
+    void testPrintPNJ() {
+        assertEquals("a   (10)\naaa (7)\naa  (8)\n", printPNJ("a",10,"aaa",7,"aa", 8));
+    }
+    
+    void testPrintPNJTableaux() {
+        assertEquals("Frodon\nForce   (4)\nAgilité (9)\nSagesse (9)\n", printPNJ(new
+        String[]{"Frodon", "Force", "Agilité", "Sagesse"}, new int[]{0,4,9,9})) ;
+    }
+    
+    // Fonctionnalité 3
     String toString(boolean[] champs){
         String rep = "";
         for (int i = 0; i < length(champs); i++){
@@ -20,11 +57,11 @@ class Challenges extends Program{
         }
         return rep;
     }
-    
+
     void println(boolean[] champs){
         println(toString(champs));
     }
-    
+
     boolean[] generer(int nb_case, int nb_bombe){
         boolean[] tab = new boolean[nb_case];
         double rand;
@@ -40,8 +77,8 @@ class Challenges extends Program{
         }
         return tab;
     }
-    
-    void algorithm(){
+
+    void _algorithm(){
         print("Nombre de cases : ");
         int cases=readInt();
         print("Nombre de bombes : ");
@@ -49,13 +86,4 @@ class Challenges extends Program{
         println(generer(cases,bombes));
     }
 
-    
-    void testPrintPNJ() {
-        assertEquals("a (10)\naaa (7)\naa (8)\n", printPNJ("a",10,"aaa",7,"aa", 8));
-    }
-    
-    void testPrintPNJTableaux() {
-        assertEquals("Frodon\nForce (4)\nAgilité (9)\nSagesse (9)\n", printPNJ(new
-       String[]{"Frodon", "Force", "Agilité", "Sagesse"}, new int[]{0,4,9,9})) ;
-    }
 }
